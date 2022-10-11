@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bb13337-79c8-4429-b98d-e7b63f77b36c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ufal/test/exercise_4/beans/Bill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ufal/test/exercise_4/beans/CreditCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ufal/test/exercise_4/beans/IPay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ufal/test/exercise_4/beans/PayImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ufal/test/exercise_4/beans/PixPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ufal/test/exercise_4/beans/PixTypeKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ufal/test/exercise_4/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ufal/test/exercise_5/beans/BluetoothImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ufal/test/exercise_5/beans/IBluetooth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ufal/test/exercise_5/beans/PackageBluetoothFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ufal/test/exercise_5/beans/SerialBluetoothFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ufal/test/exercise_5/beans/UFALBluetooth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ufal/test/exercise_5/main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,10 +48,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/ufal/test/exercise_5/beans" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ufal.test.exercise_2.main.Main" />
       <module name="test" />
@@ -80,6 +78,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ufal.test.exercise_5.main.Main" />
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ufal.test.exercise_5.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ufal.test.main.Main" />
       <module name="test" />
@@ -95,6 +106,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
