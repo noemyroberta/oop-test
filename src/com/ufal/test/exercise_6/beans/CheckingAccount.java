@@ -29,9 +29,9 @@ public class CheckingAccount extends Account {
     }
 
     @Override
-    public boolean transferCash(IAccount account, float value) {
-        if (cashOut(value)) {
-            account.cashIn(value);
+    public boolean transferCash(IAccount acc, float value) {
+        if (typeCashOut(value)) {
+            acc.cashIn(value);
             return true;
         }
         return false;

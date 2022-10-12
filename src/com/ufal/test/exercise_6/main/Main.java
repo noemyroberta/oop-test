@@ -11,14 +11,14 @@ public class Main {
        AccountImplementation aci = new AccountImplementation();
 
        aci.setAccount(specialAccount);
-       aci.cashOut(500);
+       aci.cashOut(250);
+       aci.cashOut(250);
        aci.cashIn(500);
-       aci.cashOut(500);
+       aci.cashOut(250);
+
 
        System.out.println();
        aci.setAccount(checkingAccount);
        aci.cashIn(250);
-       System.out.println(aci.getAccount());
-       aci.transferCash(specialAccount, 24);
     }
 }
