@@ -1,15 +1,19 @@
 package com.ufal.test.exercise_6.beans;
 
+import java.util.ArrayList;
+
 public class Client {
 
     private String name;
+    private ArrayList<IAccount> accounts;
 
-    Client() {
+    public Client() {
 
     }
 
-    Client(String name) {
+    public Client(String name, ArrayList<IAccount> accounts) {
         this.name = name;
+        this.accounts = accounts;
     }
 
     @Override
